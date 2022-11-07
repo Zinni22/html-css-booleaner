@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* inizio header */
+#testata{
+    width:100%;
+    background-image: url(../img/pattern.png);    background-size: 300px;
+    background-color: rgb(10, 131, 244);
+}
+#testata > img{
+    width: 200px;
+    margin-top:20px;
+}
+/* fine header */
+
+
+/* inizio main */
+main, footer{
+    width:80%;
+    margin:auto;
+}
+
+h1{
+    margin-top:30px;
+    font-size:50px;
+}
+h2{
+    color: grey;
+    margin-bottom:20px;
+}
+
+#parola_azzurra{
+    color:rgb(90, 185, 249);
+}
+#data{
+    font-size: 15px;
+}
+
+.tim{
+    width:48%;
+    height:450px;
+}
+#didascalia{
+    font-size: 12px;
+    display: block;
+}
+p{
+    font-size: 15px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.fondo-giallo{
+    background-color: yellow;
+}
+ul{
+    margin-left:30px;
+    margin-top:30px;
+}
+
+/* tabella */
+table{
+    width:100%;
+    margin-top:50px;
+    border-spacing: 0;
+}
+thead{
+    background:rgb(7, 158, 251);
+    height:auto;
+    color:white;
+}
+.colonna-stretta{
+    width:25%;
+}
+.colonna-larga{
+    width:45%
+}
+.fondo-azzurro{
+    background-color: rgb(125, 205, 232);
+}
+/* fine tabella */
+/* fine main */
+
+
+/* inizio footer */
+.box1, .box2{
+    width:300px;
+    height:200px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    color:white;
+    padding:20px;
+    margin-bottom:20px;
+}
+.box2{
+    background-image: url(../img/graph.jpg);
+}
+/* fine footer */
