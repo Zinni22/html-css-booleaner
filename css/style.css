@@ -7,7 +7,8 @@
 /* inizio header */
 #testata{
     width:100%;
-    background-image: url(../img/pattern.png);    background-size: 300px;
+    background-image: url(../img/pattern.png);    
+    background-size: 300px;
     background-color: rgb(10, 131, 244);
 }
 #testata > img{
@@ -26,16 +27,17 @@ h1{
     margin-top:30px;
     font-size:50px;
 }
-h2{
+.grey-text{
     color: grey;
     margin-bottom:20px;
 }
 
-#parola_azzurra{
-    color:rgb(90, 185, 249);
+.small-text{
+    font-size:11px;
 }
-#data{
-    font-size: 15px;
+#author-link{
+    text-decoration: none;
+    color:rgb(10, 131, 244);
 }
 
 .tim{
@@ -46,8 +48,7 @@ h2{
     font-size: 12px;
     display: block;
 }
-p{
-    font-size: 15px;
+.testo{
     margin-top:30px;
     margin-bottom:30px;
 }
@@ -67,7 +68,7 @@ table{
 }
 thead{
     background:rgb(7, 158, 251);
-    height:auto;
+    text-align: left;
     color:white;
 }
 .colonna-stretta{
